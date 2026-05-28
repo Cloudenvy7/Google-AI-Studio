@@ -1,609 +1,525 @@
 # BLACK FOX STUDIOS
 
-## The Antigravity CMS Operating Codex — Claude-Native Edition
+## The Visual Second Brain — Operating Codex (Claude Runtime Edition)
 
-**A Comprehensive Blueprint for Autonomous, Agentic Google Sites Project Management & Client Consulting, Executed on Claude**
+**Relational data infrastructure for community-based organizations, with Claude as one replaceable accelerator over a model-agnostic substrate**
 
 Prepared by Andrew Powers — Founder, Black Fox Studios | SBDC Advisor, Highline College — andrew@blackfoxstudios.org
 
-**Version 2.0 — Claude-Native Rewrite** | CONFIDENTIAL — Internal & Partner Use Only
+**Version 2.1 — realigned to the Visual Second Brain Architecture Narrative + Substrate** | CONFIDENTIAL — Internal & Partner Use Only
 
-> **What changed from v1.0.** The original Codex and Organizational Blueprint described the
-> same organism running on the Google Antigravity IDE with Gemini as the brain. This edition
-> keeps every philosophy, every agent role, and the full Visual Second Brain methodology
-> intact, but re-platforms the execution layer onto **Claude** — Claude Code, Claude Desktop
-> (Cowork), Claude Skills, the Claude Agent SDK, and MCP servers — and folds back in the
-> **relational knowledge-graph layer** (entities, relations, events, dossiers, backlinks, My Maps)
-> that was designed in the founding conversation but left out of v1.0. Where Claude cannot do
-> something natively (image generation), this document says so plainly and routes around it.
+> **What this edition is.** v1.0 (the Antigravity CMS Codex/Blueprint) described the organism on
+> the Gemini/Antigravity stack. v2.0 re-platformed it onto Claude. **v2.1 corrects the framing
+> itself:** the system is not Claude, Gemini, or any model — **the system is the relational
+> substrate**, and the AI is a replaceable accelerator that reads and maintains it. This edition
+> realigns to the two governing documents — `Visual_Second_Brain_Architecture_Narrative.md`
+> and the Substrate workbook — and folds in everything they carry that earlier editions missed:
+> `VISUAL_ARTIFACTS` as a 7th entity type, the lint/integrations/vocabulary sheets, the five-book
+> intellectual lineage, the six drifts, NotebookLM as the pre-code visual engine, the staleness
+> discipline, the no-ghostwrite compliance boundary, and the cloud→local-first deployment arc.
+> Claude is documented here as **one runtime**, not the center.
 
 ---
 
 ## Table of Contents
 
-**Part I — Philosophy & Strategic Foundation**
-- 1.0 The Manifesto: Documentation Is Production
-- 1.1 The Clarity Gap and How We Close It
-- 1.2 The Organism Metaphor (re-mapped to Claude)
-- 1.3 Why Claude Is the Right Brain for This Organism
+**Part I — The Central Inversion & Strategic Foundation**
+- 1.0 The substrate is the system; the AI is not
+- 1.1 The problem this is built against
+- 1.2 The Clarity Gap and the equity wedge
+- 1.3 The Organism Metaphor (substrate-first)
+- 1.4 Claude as one replaceable runtime
 
 **Part II — Governance Model**
-- 2.0 Constitutional AI: The Governing Codex as a Claude System Prompt
-- 2.1 Dual-Layer Communication: Narrative + Framework
-- 2.2 The Check Your Work Ethic: Visual QA as Law
+- 2.0 Constitutional AI: the Governing Codex
+- 2.1 Dual-Layer Communication
+- 2.2 Visual QA as Law
+- 2.3 The no-ghostwrite compliance boundary
 
-**Part III — The AI Organizational Structure on Claude**
-- 3.0 Agents as Claude Subagents + Skills
-- 3.1 The Project Historian
-- 3.2 The Librarian
-- 3.3 The Creative Director
-- 3.4 The QA Auditor
-- 3.5 The Orchestrator
+**Part III — The Organizational Structure (model-agnostic roles)**
+- 3.0 Agents as subagents + Skills
+- 3.1–3.5 Historian, Librarian, Creative Director, QA Auditor, Orchestrator
 
-**Part IV — The Data Model: The Relational Knowledge Graph**
-- 4.0 The Master Registry and Typed IDs
-- 4.1 The Six Entity Types
-- 4.2 Relations and Events (provenance + the "bibliography" property)
-- 4.3 Dossier Docs and Auto-Backlinks
-- 4.4 The Community Asset Map (Google My Maps)
+**Part IV — The Substrate: The Relational Knowledge Graph**
+- 4.0 Master Registry & typed IDs
+- 4.1 Seven entity types
+- 4.2 Events & Relations (mandatory provenance)
+- 4.3 Visual Artifacts as first-class data
+- 4.4 Dossiers, backlinks & the staleness discipline
+- 4.5 Lint, Integrations & Vocabularies
+- 4.6 The Community Asset Map
 
-**Part V — The Consulting Process & Site Template**
-- 5.0 The Visual Second Brain
-- 5.1 The JBL Reference Implementation
-- 5.2 Template Grammar: Pages, Blocks, Variables
-- 5.3 The Site-Map Sheet as Intended State
+**Part V — The Visual Layer & the Site Template**
+- 5.0 The visual layer is the equity layer
+- 5.1 The JBL reference implementation
+- 5.2 Template grammar
+- 5.3 The Site-Map Sheet as intended state
 
-**Part VI — The Claude Technical Architecture**
-- 6.0 The Claude-Native Stack
-- 6.1 Execution Hosts: Claude Code vs. Cowork
-- 6.2 MCP Servers: The Connective Tissue
-- 6.3 Browser Automation the Claude Way
-- 6.4 The Local Bridge: Drive for Desktop
-- 6.5 Triggers: How Work Starts
-- 6.6 The Image-Generation Honesty Section
+**Part VI — The Technical Architecture (Claude runtime)**
+- 6.0 The stack
+- 6.1 Execution hosts
+- 6.2 MCP servers
+- 6.3 Browser automation & the API gap
+- 6.4 The local bridge
+- 6.5 Triggers
+- 6.6 The visual-generation engine (NotebookLM first)
 
 **Part VII — Operational Mechanics**
-- 7.0 Commit Logic and Reversible History
-- 7.1 The CODE Framework
-- 7.2 The Visual Vocabulary
-- 7.3 The Reconciliation Engine: Any Surface as Input
-- 7.4 The Full Lifecycle: From Voice to View
+- 7.0 Commit logic & reversible history
+- 7.1 CODE framework
+- 7.2 Visual Vocabulary
+- 7.3 The reconciliation engine
+- 7.4 The full lifecycle
 
-**Part VIII — Iteration, Scale & Change Management**
-- 8.0 The Feedback Loop
-- 8.1 Quarterly System Audits
-- 8.2 The Fractal Growth Model
-- 8.3 The Workshop Integration
+**Part VIII — Intellectual Lineage, Drift Control, Scale & Deployment**
+- 8.0 The five canonical books
+- 8.1 The six drifts & lint discipline
+- 8.1b Feedback loop & quarterly audits
+- 8.2 Fractal growth
+- 8.3 The deployment arc (cloud → local-first → physical)
+- 8.4 The workshop funnel & proof artifacts
 
-**Appendices**
-- A. Bootstrap Protocol (Claude-native initialization)
-- B. Template Variable Reference
-- C. Block Type Vocabulary
-- D. MCP Server Inventory
-- E. Skill Inventory (Claude Skills mapped to v1.0 skills S01–S42)
+**Appendices** — A. Bootstrap · B. Variables · C. Block types · D. Integrations inventory · E. Skills
 
 ---
 
-# Part I — Philosophy & Strategic Foundation
+# Part I — The Central Inversion & Strategic Foundation
 
-## 1.0 The Manifesto: Documentation Is Production
+## 1.0 The substrate is the system; the AI is not
 
-Nothing in the founding philosophy changes because the model changed. Production is not a
-phase that happens after thinking; the act of documenting a decision is the mechanism that
-triggers the work. If a decision is made but not logged, it did not happen. If a change is
-deployed but not visually verified, it is reckless. The documentation **is** the production.
+Most AI deployments put the model at the center and treat data as something the model
+consumes. This system does the opposite. The **relational substrate** — Google Sheets holding
+entities, events, and relations — is the durable, authoritative core. The AI is a maintenance and
+synthesis layer that reads from the substrate and writes back to it. Swap the model (Claude,
+Gemini, a local open-weights model on a NAS) and the substrate is untouched: schema, rules,
+visual conventions, and accumulated data all survive, because they were never inside the model.
 
-What Claude adds is a more honest relationship with that axiom. Claude is trained to refuse to
-mark work complete on the basis of "the code ran." It is comfortable saying "I did X but could
-not verify Y," which is exactly the posture the Check Your Work Ethic demands. The model's
-disposition matches the doctrine.
+The practical consequence for a partner: **value compounds in the data the organization owns,
+not in the model.** That is the opposite of most AI products, where value evaporates when the
+vendor changes terms. The substrate had to be designed first and carefully, before any
+automation; everything downstream is a projection of it. If the substrate is sound, projections
+regenerate freely. If it is muddled, no model quality fixes it.
 
-## 1.1 The Clarity Gap and How We Close It
+This is also why the system is **pre-code first** (`RES-COMMIT-001`): the Workspace substrate
+produces value before any AI is added. AI accelerates; it does not enable. Forgetting this is
+`DRIFT-05`, and the architecture is built to refuse it.
 
-The Clarity Gap — the degradation of intent as a project moves from founder to manager to
-designer to developer — is unchanged. We still serve small businesses and nonprofits in South
-King County, many burned by consultants who could not translate between what the client knows
-and what a system needs. AI is still the translator; the consultant still manages the AI, not the
-client.
+## 1.1 The problem this is built against
 
-The Claude-native difference: the translator now runs in environments a non-developer can
-actually operate. v1.0 leaned on the Antigravity IDE, which — as was correctly observed in the
-founding conversation — is "designed as if someone's very skilled and knows how to use IDEs."
-Claude Desktop's Cowork mode is explicitly built for the opposite user: point it at folders,
-describe an outcome, approve consequential steps. That design choice is itself a closing of the
-Clarity Gap at the tooling layer, not just the content layer.
+The communities served — immigrant/refugee organizations, BIPOC small business owners,
+formerly incarcerated workers, the nonprofit staff serving them — are locked out of the AI wave
+for a reason rarely named precisely: every dominant tool assumes a specific cognitive posture
+(an individual, alone, in text, through a prompt, who has *already* organized their thinking well
+enough to ask a good question). Obsidian looks like a developer tool; a chatbot is a blank box
+demanding the literacy it claims to teach. The one sufficiently powerful relational system these
+communities already trust and operate daily is **Google Workspace** — email, Docs, Sheets,
+Forms, Calendar. The relational power is hidden under familiar surfaces.
 
-## 1.2 The Organism Metaphor (re-mapped to Claude)
+## 1.2 The Clarity Gap and the equity wedge
 
-| Organ | v1.0 (Gemini/Antigravity) | v2.0 (Claude-Native) |
+The Clarity Gap — intent degrading as a project moves founder → manager → designer →
+developer — is closed by using AI as the translator. The deeper wedge: **AI-grade data
+infrastructure operated by people who don't know they're operating it.** A volunteer fills out a
+Form; that becomes a row in a Sheet, a reference in a Doc, a section on a Site. They did data
+entry; the system did the relational work — and they never had to touch the AI.
+
+## 1.3 The Organism Metaphor (substrate-first)
+
+| Organ | Role | Implementation (substrate-first) |
 |---|---|---|
-| **Brain** (structured truth) | Google Sheets | Google Sheets — unchanged (substrate is still Google) |
-| **Memory** (raw assets) | Google Drive | Google Drive — unchanged |
-| **Body** (presentation) | Google Sites | Google Sites — unchanged |
-| **Nervous System** (the agents) | Gemini agents in Antigravity | **Claude** (Opus/Sonnet/Haiku) as subagents + Skills, hosted in Claude Code / Cowork |
-| **Mission Control** (the host) | Antigravity IDE | **Claude Code** (developer surface) **+ Claude Desktop / Cowork** (operator surface) |
-| **Hands** (UI interaction) | Stagehand / Puppeteer | **Claude in Chrome / computer use**, with Playwright-via-MCP as the scripted fallback |
-| **Connective tissue** (tool access) | direct API calls | **MCP servers** (Google Drive MCP, custom write MCP, browser MCP) |
+| **Brain / spine** | structured truth | Google Sheets substrate — **the system itself** |
+| **Memory** | raw assets | Google Drive |
+| **Body** | presentation (a projection) | Google Sites |
+| **Map** | spatial projection | Google My Maps |
+| **Nervous System** | the accelerator | **AI (Claude / Gemini / local) — replaceable** |
+| **Hands** | UI interaction where no API exists | Claude in Chrome / computer use; Stagehand/Playwright fallback |
+| **Connective tissue** | tool access | MCP servers |
 
-The substrate — Sheets, Drive, Sites, My Maps — does not move. Google still provides free
-hosting, collaboration, and a stack the client already trusts. What changes is the nervous system
-and the hands.
+The substrate does not move when the model changes. That is the whole point.
 
-## 1.3 Why Claude Is the Right Brain for This Organism
+## 1.4 Claude as one replaceable runtime
 
-1. **Skills are first-class and portable.** A Claude Skill (a `SKILL.md` plus reference files) is
-   exactly the unit this system is built from — the SBDC meeting-note generator was the first one.
-   Skills are model-invoked, version-controllable, and run identically in Claude chat, Claude
-   Code, and Cowork.
-2. **MCP is the answer to Google's API gaps.** Where v1.0 hit walls (Docs tabs, Sites), MCP lets
-   us bolt on exactly the capability we need — a custom write server, a browser server — without
-   waiting for a vendor API.
-3. **The Agent SDK gives us real orchestration.** Subagents, hooks, and context management
-   replace the Antigravity "Agent Manager" with something programmable and testable.
-4. **Honest verification.** Claude's training rewards flagging unverified work, which is the
-   keystone of the QA discipline.
-
-The one thing Claude does **not** do is generate images. Part VI.6 handles this directly.
+This edition documents the **Claude runtime** because it is what we operate today, and because
+Claude's strengths fit the work: Skills are first-class and portable (the SBDC meeting-note skill
+was the first); MCP closes Google's API gaps; the Agent SDK gives real orchestration; and
+Claude's training rewards flagging unverified work, which matches the QA discipline. **But none
+of this is load-bearing for the architecture.** `RES-COMMIT-007` (model-agnostic) means Gemini
+or a local model could fill the same roles. Claude is the current accelerator, not the system.
 
 ---
 
 # Part II — The Governance Model
 
-## 2.0 Constitutional AI: The Governing Codex as a Claude System Prompt
+## 2.0 Constitutional AI: the Governing Codex
 
-The Governing Codex — strategic priorities, tonal voice, operational boundaries, brand
-standards — is implemented as a **layered Claude system prompt + a `CLAUDE.md` file +
-project Skills**:
-
-- **`CLAUDE.md`** at the repo/project root holds the durable constitution. Claude Code and
-  Cowork both read it automatically on every session, so the constitution is always in context.
-- **A `governing-codex` Skill** carries the longer doctrine (voice rules, style guide, visual
-  vocabulary) and is invoked when an agent is about to write client-facing content.
-- **The system prompt** (set via the Agent SDK for the orchestrator) carries the inviolable rules
-  that must never be overridden.
-
-Before any action, an agent filters the proposed action through this constitution. If a proposed
-update conflicts with the Codex, the agent self-corrects or refuses — the same behavior as
-v1.0, now enforced by Claude's instruction-following plus explicit hooks that can block a tool call.
+The Codex (strategic priorities, voice, boundaries, brand) is implemented as a layered system
+prompt + `CLAUDE.md` (auto-loaded by Claude Code/Cowork each session) + a `governing-codex`
+Skill carrying the longer doctrine (style guide, visual vocabulary, the principle/drift library).
+Before any action, an agent filters it through the constitution and self-corrects or refuses on
+conflict — enforced by instruction-following plus hooks that can hard-block a tool call.
 
 ## 2.1 Dual-Layer Communication: Narrative + Framework
 
-Unchanged in intent. Every action generates two records:
-
-- **Layer 1 — Narrative (Human Story):** low-fog, plain language. *"The client was worried about
-  the timeline, so we updated the Schedule section to show a Q3 completion date."*
-- **Layer 2 — Framework (SME Metadata):** *"Framework Applied: Stakeholder Analysis (High
-  Power / High Interest); Risk Mitigation (Schedule Slip)."*
-
-This is the surviving DNA of the original SBDC meeting-note skill, which produced exactly this
-kind of voice-faithful, structured output. In v2.0 it is generated by Claude (better voice fidelity
-than the Gemini summarization step the founding conversation explicitly distrusted) and written
-to the `Project_Narrative_Log`.
+Every action generates two records: **Layer 1 — Narrative** (low-fog, plain language) and **Layer
+2 — Framework** (the SME tag: RACI / SWOT / Stakeholder Analysis, or one of the ~31 named
+principles in `RESOURCES`). This is the surviving DNA of the original SBDC meeting-note skill,
+now written by Claude and logged to `Project_Narrative_Log`. Never write one layer without the
+other.
 
 ## 2.2 The Check Your Work Ethic: Visual QA as Law
 
-A task is not done when the code is valid; it is done when the user experience is verified. The
-QA Auditor still physically launches a browser, sets the viewport to 375px (mobile) and 1440px
-(desktop), captures screenshots, and reads them with vision. The difference: the browser is
-driven by **Claude in Chrome / computer use** (or Playwright via MCP), and the screenshots
-are analyzed by **Claude's own vision** rather than Gemini Vision. If text overlaps an image or
-contrast fails WCAG 4.5:1, the Auditor rejects its own work and loops. Three consecutive
-failures trigger a rollback.
+A task is not done when the code is valid; it is done when the UX is verified. The QA Auditor
+launches a browser, sets 375px and 1440px viewports, captures screenshots, and reads them
+with vision; on contrast/overlap failure it rejects its own work and loops; three strikes trigger
+rollback. Failures it cannot resolve are logged to `LINT_FINDINGS`, not hidden.
+
+## 2.3 The no-ghostwrite compliance boundary
+
+`RES-COMMIT-010` (the EDI contract rule): **the AI assists, structures, reviews, and visualizes —
+it does not author the work that must be the client's own.** Helping an applicant structure,
+critique, and visualize *their own* grant narrative is allowed; drafting the narrative for them is
+not. This governs everything the synthesis layer produces whenever it touches funded
+technical-assistance work, and it is stored as an architectural commitment so the constraint
+travels with the system rather than living only in a contract someone must remember.
 
 ---
 
-# Part III — The AI Organizational Structure on Claude
+# Part III — The Organizational Structure (model-agnostic roles)
 
-## 3.0 Agents as Claude Subagents + Skills
+## 3.0 Agents as subagents + Skills
 
-In v1.0 the four agents were Gemini personas inside Antigravity. In v2.0 each agent is a
-**Claude subagent** (its own context window, its own system prompt, its own allowed tool set)
-defined through the Agent SDK or as a Claude Code subagent, and each carries one or more
-**Skills** that encode its standard operating procedures. The Orchestrator dispatches them in
-sequence and enforces the dependency chain.
+Each agent is a subagent (own context, system prompt, allowed tools) carrying Skills that encode
+its SOPs. The Orchestrator enforces the chain. The roles are the R01–R10 roles from the
+Blueprint; the table below shows the **Claude runtime** binding — another runtime would map the
+same roles to its own models.
 
-| Agent | Industry role | Claude implementation | Model |
+| Agent | Role | Writes to | Claude model |
 |---|---|---|---|
-| Project Historian | Product Manager | subagent + `historian` skills | Opus 4.7 (judgment-heavy) |
-| Librarian | Info Architect | subagent + Drive MCP + `librarian` skills | Sonnet 4.6 (volume) |
-| Creative Director | UX/UI Designer | subagent + `creative-director` skills + image MCP | Opus 4.7 (composition) |
-| QA Auditor | QA Engineer | subagent + browser MCP + vision | Sonnet 4.6 (vision) |
-| Orchestrator | DevOps Lead | Agent SDK root loop + hooks | Sonnet 4.6 |
+| Historian | PM | `Project_Narrative_Log`, `EVENTS` | Opus 4.7 |
+| Librarian | Info Architect | type sheets, `RELATIONS`, `VISUAL_ARTIFACTS` | Sonnet 4.6 |
+| Creative Director | UX/UI | `SITE_CONTENT_BLOCKS`, `VISUAL_ARTIFACTS` | Opus 4.7 |
+| QA Auditor | QA | QA status, `LINT_FINDINGS` | Sonnet 4.6 |
+| Orchestrator | DevOps | sync logs, dispatch | Sonnet 4.6 |
 
-Model selection is a cost/quality lever: Haiku 4.5 handles cheap classification (is this file an
-image? which project does this belong to?), Sonnet handles volume and vision, Opus handles
-the judgment-heavy synthesis and composition.
+Haiku 4.5 handles cheap classification.
 
 ## 3.1 The Project Historian
-
-Guardian of context; the only entity allowed to write the Strategy and Narrative columns of the
-Project Bible. Runs the **5W Interrogation** (Who/What/Where/When/Why), applies business
-frameworks (RACI, SWOT, Stakeholder Analysis), performs **Progressive Summarization**
-(Level 1 raw → Level 2 key quotes → Level 3 three-bullet executive summary), and writes a
-**Commit** to `Project_Narrative_Log`. In v2.0 the Historian also writes **Event** rows (Part IV)
-because every commit is, in knowledge-graph terms, an event with participants and provenance.
+Guardian of context; only writer of Narrative/Strategy. Runs the 5W Interrogation, applies
+frameworks, performs Progressive Summarization (raw → key quotes → 3-bullet executive), and
+writes a **Commit** paired with an **Event** row (every commit is, in graph terms, an event with
+participants and provenance).
 
 ## 3.2 The Librarian
-
-Fights entropy. Content-scans every new file (Claude vision reads PDFs, images, sheets),
-applies taxonomy routing from the Codex, renames to canonical `YYYY-MM-DD_Type_Name_vNN.ext`,
-files the master copy, and creates **one-to-many** references across the database. In v2.0 the
-Librarian's reach extends to the full entity model: a new file about a person updates that
-person's dossier and the relations table, not just `Content_Assets`. It reaches Drive through the
-**Google Drive MCP** for cloud operations and through **Drive for Desktop** for local file edits.
+Fights entropy. Content-scans new files (vision), canonical-renames, files the master, and creates
+one-to-many references. In this edition the Librarian also mints `VIS-` rows for visual artifacts
+and maintains relations — a new file about a person updates that person's dossier and
+`RELATIONS`, not just `Content_Assets`. Reaches Drive via the Drive MCP or Drive for Desktop.
 
 ## 3.3 The Creative Director
-
-Turns data into visible experience. Copywriting in the Codex voice, **Visual Vocabulary**
-selection (timelines→Gantt, locations→maps, finance→charts, concepts→cards), brand
-enforcement against the Style Guide, layout composition against the JBL template, block
-insertion, and **proof pairing**. It does not click the editor itself — it emits structured block-
-insertion instructions that the browser-automation layer executes. **Image generation is
-delegated** to an external model (Part VI.6); Claude writes the prompt and orchestrates, an
-image API produces the asset.
+Turns data into visible experience: copy in the Codex voice, Visual Vocabulary selection, brand
+enforcement, layout, block insertion, proof pairing. Emits structured block instructions; does not
+click the editor. **Visual generation is delegated** (Part VI.6) — it writes the spec, an engine
+produces the asset, the result is registered as a `VIS-` artifact.
 
 ## 3.4 The QA Auditor
-
-The only agent with veto power. Viewport simulation (375/1440), screenshot capture, WCAG
-contrast analysis, layout-regression detection, and pass/fail ticketing to the Narrative Log. Built
-on the **browser MCP / Claude in Chrome** plus Claude vision. On pass → publish + status
-`Verified`; on fail → defect ticket back to the Creative Director; three strikes → Orchestrator
-rollback.
+The only agent with veto. Viewport sim, screenshot, WCAG contrast, layout-regression, pass/fail
+ticketing, and **lint**: it writes contradictions, stale claims, orphans, and drift-correction-needed
+items to `LINT_FINDINGS` for human review.
 
 ## 3.5 The Orchestrator
-
-The traffic controller, implemented as the **Agent SDK root agent**. Receives the trigger,
-resolves the project via `Master_Index`, and dispatches the chain: **Librarian → Historian →
-Creative Director → QA Auditor**. Enforces sequencing with the dependency rule (no building
-before organizing and logging are done), handles errors (retry transient, skip non-critical,
-escalate critical), and triggers rollback on repeated QA failure. **Hooks** give it hard control
-points — e.g., a pre-publish hook that blocks if QA status is not `Verified`.
+Agent SDK root agent. Resolves the project via `MASTER_REGISTRY`, dispatches **Librarian →
+Historian → Creative Director → QA Auditor**, enforces sequencing, handles errors (retry/skip/
+escalate), and triggers rollback on repeated QA failure. Hooks give hard control points (e.g.,
+pre-publish blocks unless QA status = `Verified`).
 
 ---
 
-# Part IV — The Data Model: The Relational Knowledge Graph
+# Part IV — The Substrate: The Relational Knowledge Graph
 
-> This is the layer the founding conversation designed in depth and v1.0 omitted. It is restored
-> here because it is what makes the system a knowledge graph rather than a fancy CRM.
+The substrate is a normalized (3NF) schema in plain Google Sheets — standard database
+discipline, operable by non-technical people because the surface is just spreadsheet tabs.
 
-## 4.0 The Master Registry and Typed IDs
+## 4.0 The Master Registry and typed IDs
 
-One **`MASTER_REGISTRY`** sheet is the spine. Every entity that exists anywhere gets a stable,
-immutable, typed ID. Names change; IDs never do.
+One **`MASTER_REGISTRY`** sheet is the spine — *a phone book, not a profile*. Columns:
+`entity_id` (`TYPE-#####`), `entity_type`, `display_name`, `created_date`, `created_by`, `status`,
+`dossier_doc_url`, `notes`. **IDs are stable; names are not** — every cross-reference points at
+the ID. Prefixes: `PER- ORG- PLA- PRJ- RES- EVT- VIS-`.
 
-`MASTER_REGISTRY` columns: `entity_id` (`TYPE-#####`), `entity_type`, `display_name`,
-`created_date`, `created_by`, `status`, `dossier_doc_url`, `notes`.
+## 4.1 The seven entity types
 
-ID prefixes: `PER-` people, `ORG-` organizations, `PLA-` places, `PRJ-` projects, `RES-`
-resources, `EVT-` events. Five-digit zero-padded for correct text sort.
+Each is its own sheet keyed back to the registry: **PEOPLE, ORGANIZATIONS, PLACES,
+PROJECTS, RESOURCES, EVENTS, VISUAL_ARTIFACTS.** (v2.0 had six; `VISUAL_ARTIFACTS` is
+the seventh — see 4.3.) Each carries only the fields relevant to its type; a unified mega-table is
+explicitly rejected.
 
-The v1.0 `Master_Index` becomes a **view** of `MASTER_REGISTRY` filtered to `entity_type =
-Project` — so the project-hub product and the knowledge graph share one spine.
+## 4.2 Events & Relations (mandatory provenance)
 
-## 4.1 The Six Entity Types
+**`EVENTS`** is the keystone: a bounded occurrence (meeting, introduction, workshop, submission)
+with participants, date, project context, and `source_doc_url`. *"I introduced Jerry to the two
+Northeastern interns"* is **one event** that implies relations — not three free-floating relations.
+Events also carry `produced_by_agent` / `produced_by_skill` (Codex R-/S- IDs).
 
-Each type has its own sheet keyed back to the registry by `entity_id` (a foreign key):
+**`RELATIONS`** is the connective tissue: each row one connection between two IDs, with a
+controlled-vocabulary `relation_type`. The hard rule: **every relation cites a `source_event_id`**
+(required field). The chain is relation → event → document → the moment in the world. It is a
+bibliography baked into the data model. Vocabulary stays small and grows only on purpose
+(`Employed by`, `Located at`, `Involved in`, `Introduced to`, `corrects_drift`, `derived_from_book`,
+`external_validates`, `Connected to` used sparingly, etc.).
 
-- **PEOPLE** — first/last/preferred name, email, phone, role, `primary_org_id`, location,
-  relationship type/strength, `last_interaction_date`.
-- **ORGANIZATIONS** — official name, short name, type, `primary_location_id`, website,
-  relationship type.
-- **PLACES** — name, type, address, `lat`, `lng`, `my_maps_pin_url`.
-- **PROJECTS** — name, short name, status, dates, `lead_person_id`, `project_site_url`,
-  `site_map_sheet_url`, summary.
-- **RESOURCES** — name, type (grant/tool/doc/opportunity/event), url, relevant dates.
-- **EVENTS** — see 4.2; the keystone.
+## 4.3 Visual Artifacts as first-class data
 
-## 4.2 Relations and Events (provenance + the "bibliography" property)
+`VISUAL_ARTIFACTS` (`VIS-`) makes the visual layer queryable. Each infographic, dashboard, map
+view, slide deck, or audio/video overview is a row recording what it consolidates
+(`source_entity_ids`, `source_event_ids`, `source_query`), how it was generated (`generated_by`,
+`generation_method`), its `cognitive_format`, `compression_ratio`, `accessibility_alt_text`, and
+embed/thumbnail URLs. Visuals persist, version with their data, regenerate when the data
+changes, and appear as thumbnails in the backlink tabs of every entity they reference — so a
+dossier is a **multimodal** index, not a text list.
 
-**`EVENTS`** records bounded occurrences (meeting, introduction, workshop, email, site visit).
-Columns: `entity_id` (`EVT-#####`), `event_name`, `event_type`, `event_date`,
-`primary_project_id`, `source_doc_url`, `summary`, `notes`. The event's `source_doc_url` is the
-actual meeting note / transcript / email where it was recorded.
+## 4.4 Dossiers, backlinks & the staleness discipline
 
-**`RELATIONS`** is the connective tissue. Every row is one connection and **every relation
-traces back to a source event** (`source_event_id` is required — locked decision). Columns:
-`relation_id`, `entity_id_a`, `entity_id_b`, `relation_type`, `source_event_id`, `source_doc_url`,
-`start_date`, `end_date`, `strength`, `relevant_project_ids`, `created_date`, `created_by`.
+Every entity has a **dossier Google Doc** (canonical home; URL in the registry) with flat
+canonical tabs. **Human-written and system-generated tabs never mix** (hard rule). Universal
+tabs: `Profile`, `Mentions & Connections` (auto backlinks), `Resources & Files`, `Notes & Scratch`
+(human-only). Type-specific tabs per the entity kind. Auto tabs are marked and **never silently
+overwrite** a human edit — they preserve and flag it.
 
-Controlled vocabulary for `relation_type` (start small, resist explosion): *Employed by, Located
-at, Involved in, Hosted at, Funded by, Uses, Partners with, Introduced to, Connected to.*
+**Backlinks** (Notion/Roam pattern): content lives in one place; `Mentions & Connections`
+auto-populates from `RELATIONS`/`EVENTS` with date, summary, source link, project tags, and
+`VIS-` thumbnails. Write once; discoverability propagates.
 
-This is the "bibliography" property: any fact in the system is one click from the event and the
-document that produced it. When you write "I introduced JR to Shreya and Langley about the
-hackathon pipeline," that is **one event** producing **several relations**, each citing the event.
+**Staleness discipline (`RES-COMMIT-008`):** a 180-day threshold (a single editable commitment
+in the substrate). On regeneration, any relation without a confirming event inside the window is
+flagged "last confirmed on [date]" — **never deleted**. The system may remember; it may not
+pretend old facts are fresh.
 
-## 4.3 Dossier Docs and Auto-Backlinks
+*Claude-runtime note:* Google's Docs API cannot create tabs programmatically. Dossier-tab
+writes go through Drive for Desktop (local edit, synced back) or the browser path — the same
+mechanism as Sites. Validate whether a locally-edited `.docx` syncs as a true tab or a section.
 
-Every entity has a **dossier Google Doc** (its canonical home, URL stored in the registry) built
-from a per-type template with **flat canonical tabs**:
+## 4.5 Lint, Integrations & Vocabularies
 
-- **Universal tabs (all dossiers):** `Profile`, `Mentions & Connections` (auto), `Resources &
-  Files`, `Notes & Scratch` (human-only).
-- **Type-specific tabs:** People → `Meetings & Conversations`, `Context & Background`; Orgs →
-  `History & Engagement`, `Key People` (auto); Places → `Events & Activity`, `Geographic
-  Context`; Projects → `Timeline & Milestones`, `Participants` (auto), `Site Map Reference`,
-  `Deliverables & Documents`; Resources → `Details & Specs`, `Usage & References` (auto);
-  Events → `Profile`, `Full Record`, `Outcomes`.
+- **`LINT_FINDINGS`** — the system logs its own integrity problems (contradictions, superseded
+  claims, orphan entities, drift-correction-needed) with severity and status, for human review. It
+  starts empty and fills as the system runs. *The system surfaces its own decay rather than hiding
+  it.*
+- **`INTEGRATIONS`** — one inventory of every external dependency, each with auth status, cost
+  model, **failure mode, and fallback** (Appendix D). Doubles as the technical-architecture
+  appendix for funders.
+- **`VOCABULARIES`** — canonical value lists for every enum column. Keep tight; **vocabulary
+  explosion kills a relational system.**
 
-**Hard rule: human-written and system-generated content never mix in the same tab.** Auto
-tabs carry a header — *"This tab is auto-generated. Manual edits will be overwritten on next
-sync. Use Notes & Scratch for freeform."*
+## 4.6 The Community Asset Map
 
-**Backlinks** are the Notion/Roam pattern: content lives in one place; the `Mentions &
-Connections` tab in every referenced entity's dossier auto-populates from `RELATIONS`/`EVENTS`
-with date, one-line summary, source link, and project tags. You write once; the system
-propagates discoverability.
-
-**Claude's role here:** the Docs-tabs API still cannot create tabs programmatically. So dossier
-tab writes go through the **same browser-automation path as Sites**, or — preferably — through
-**Drive for Desktop**, where Claude edits the local file and Google syncs it back. The system
-treats "create/refresh a dossier tab" as just another reconcile target.
-
-## 4.4 The Community Asset Map (Google My Maps)
-
-`PLACES` entities with `lat`/`lng` project onto a **Google My Maps** community asset map,
-linked by the same ID system. The map shows entities in spatial relationship; projects link to it
-when geography matters. My Maps has only a limited API, so it is treated as a **lightly-synced /
-often-manual** surface — written when easy, otherwise updated by hand and reconciled.
+`PLACES` with `lat`/`lng` project onto **Google My Maps**, linked by the same IDs. Limited write
+API → treated as lightly-synced / often-manual.
 
 ---
 
-# Part V — The Consulting Process & Site Template
+# Part V — The Visual Layer & the Site Template
 
-## 5.0 The Visual Second Brain
+## 5.0 The visual layer is the equity layer
 
-Every engagement produces a Google Sites project hub — an internal, visual single-source-of-
-truth, not a public marketing site. Four reader needs, four entry points: executive overview,
-show-your-work, the receipts, and the breadcrumb trail.
+"A picture is worth a thousand words" is treated literally, as a statement about cognitive
+bandwidth. For a time-rich knowledge worker the text/visual gap is a convenience; for a volunteer
+with fifteen minutes between client meetings it is the difference between "usable" and "not for
+me." A good visual is **consolidation, not abstraction** (`RES-COMMIT-004`): it concentrates the
+whole dataset into a glance with the full substrate preserved underneath. This rewards the visual
+and collaborative fluency these communities have and the prompt-driven paradigm ignores.
 
-## 5.1 The JBL Reference Implementation
+## 5.1 The JBL reference implementation
 
-The Joe Brazil Legacy site (`jbl.blackfoxstudios.org`) is the gold standard. Site-level persistent
-elements (logo, title `BFS X [CLIENT]`, nav, draft banner, footer contact, calendar CTA) plus the
-four pages:
+The Joe Brazil Legacy site (`jbl.blackfoxstudios.org`, funded 4Culture — `RES-PROOF-003`) is the
+gold standard and established the site grammar. Persistent elements + four pages: **Home**
+(overview), **Stage 1** (show your work), **Stage 2** (receipts), **Development Docs** (breadcrumb).
 
-- **Home** — H1 block, hosting statement, hero image, embedded strategy PDF, narrative, four
-  sub-sections (Project / Goal / Development / Deliverables), calendar booking button.
-- **Stage 1 (Show Your Work)** — stage hero + date, embedded vendor/partner site, repeating
-  milestone slides (image + heading + body).
-- **Stage 2 (Receipts)** — intro, date, embedded Drive folder grid, embedded Sheet.
-- **Development Docs (Breadcrumb)** — H1, intro, hero + date, repeating dated document index.
+## 5.2 Template grammar
 
-## 5.2 Template Grammar: Pages, Blocks, Variables
+~12 block types (heading, paragraph, bulleted_list, image, image_with_caption, external_link,
+internal_link, drive_file_embed, drive_folder_embed, drive_sheet_link, calendar_button,
+embedded_website) and ~20 per-client variables (Appendix B). **Proof pairing is law:** every
+claim sits beside an embedded proof object.
 
-~12 reusable block types (heading, paragraph, bulleted_list, image, image_with_caption,
-external_link, internal_link, drive_file_embed, drive_folder_embed, drive_sheet_link,
-calendar_button, embedded_website) and ~20 per-client variables (`{{client_name}}`,
-`{{stage_1_slides}}`, `{{stage_2_drive_folder_id}}`, etc. — full list in Appendix B).
+## 5.3 The Site-Map Sheet as intended state
 
-**Design law — Proof Pairing:** every narrative claim sits next to an embedded proof object the
-reader can see, click, and verify without leaving the page.
-
-## 5.3 The Site-Map Sheet as Intended State
-
-Each project has a **site-map Sheet** that is the *intended state* of its Site. The Site is a
-*projection*; browser automation only makes the Site match the Sheet. This makes Site updates
-idempotent and recoverable, editable by anyone who can edit a Sheet, and writable
-programmatically. Two sheets per project:
-
-- **`SITE_PAGES`** — `page_id`, `page_title`, `page_slug`, `parent_page_id`, `page_order`,
-  `page_status`, `page_purpose`, `last_published_date`.
-- **`SITE_CONTENT_BLOCKS`** — `block_id`, `page_id`, `section_id`, `block_order`,
-  `block_type`, `content_text`, `content_image_url`, `content_embed_url`,
-  `content_button_url/label`, `source_event_id`, `source_entity_ids`, `source_doc_url`,
-  `auto_generate_image` (bool), `created_date`, `last_updated_date`, `status`.
-
-Plus **`SITE_SYNC_LOG`** (`sync_id`, `sync_date`, `triggered_by`, `result`, `drift_detected`,
-`notes`) for operational health — every reconcile run is logged, and manual Site edits that don't
-match the Sheet are flagged as drift.
-
-Because each block carries `source_event_id` and `source_entity_ids`, publishing to the Site
-also updates the backlink tabs of every referenced entity's dossier — the Site becomes another
-node in the reconciliation graph.
+Each project's `SITE_PAGES` + `SITE_CONTENT_BLOCKS` sheets are the *intended state*; the Site
+is the *projection*; automation reconciles the Site to match. Idempotent, recoverable, editable by
+anyone who can edit a Sheet. Every block carries `source_event_id` + `source_entity_ids`, so
+publishing also updates the backlink tabs of referenced entities. `SITE_SYNC_LOG` records every
+run, flags manual-edit drift, and makes failures visible.
 
 ---
 
-# Part VI — The Claude Technical Architecture
+# Part VI — The Technical Architecture (Claude runtime)
 
-## 6.0 The Claude-Native Stack
+## 6.0 The stack
 
-| Layer | Tool | Role | Notes |
-|---|---|---|---|
-| Operator surface | Claude Desktop (Cowork) | non-dev mission control | Mac now, Windows later; Max tier |
-| Developer surface | Claude Code (CLI) | scripted mission control | cross-platform; subagents, hooks, skills |
-| Intelligence | Claude (Opus 4.7 / Sonnet 4.6 / Haiku 4.5) | the brain | model-per-task cost lever |
-| Agent framework | Claude Agent SDK | orchestration, subagents | replaces Antigravity Agent Manager |
-| Capability unit | Claude Skills (`SKILL.md`) | SOPs, voice, templates | portable across chat/Code/Cowork |
-| Tool access | MCP servers | Drive, write, browser | the connective tissue |
-| Hands | Claude in Chrome / computer use | UI automation | Playwright-via-MCP fallback |
-| Local bridge | Drive for Desktop | sync shared drives as local files | sidesteps Docs/Sites API gaps |
-| Substrate | Sheets / Docs / Drive / Sites / My Maps | Brain/Memory/Body/Map | unchanged from v1.0 |
+| Layer | Tool | Role |
+|---|---|---|
+| Operator surface | Claude Desktop (Cowork) | non-dev mission control (Mac; Max tier) |
+| Developer surface | Claude Code (CLI) | scripted mission control; cross-platform |
+| Intelligence | Claude Opus 4.7 / Sonnet 4.6 / Haiku 4.5 | the accelerator (replaceable) |
+| Agent framework | Claude Agent SDK | orchestration, subagents, hooks |
+| Capability unit | Claude Skills | SOPs, voice, templates |
+| Tool access | MCP servers | Drive, custom write, browser, image |
+| Hands | Claude in Chrome / computer use | UI automation (Stagehand/Playwright fallback) |
+| Local bridge | Drive for Desktop | sync shared drives as local files |
+| Visual engine | **NotebookLM** (pre-code) | Studio visual consolidations; Imagen/local SDXL fallback |
+| Substrate | Sheets / Docs / Drive / Sites / My Maps | the system + its projections |
 
-## 6.1 Execution Hosts: Claude Code vs. Cowork
+## 6.1 Execution hosts
+Build and schedule on **Claude Code** (cross-platform, holds Skills/`CLAUDE.md`/the SDK
+orchestrator); expose daily flows to the human via **Cowork** (Mac/Max) or a ChatOps trigger on
+any platform.
 
-- **Claude Code** is the build-and-run-it surface: it has the filesystem, runs the Agent SDK
-  orchestrator, holds the Skills and `CLAUDE.md`, and is where the system is developed and
-  scheduled. Cross-platform (works on Windows, unlike Cowork today).
-- **Cowork (Claude Desktop)** is the operator surface for the non-developer day-to-day: point it
-  at the project folder, say "format this transcript and update the right client's hub," approve the
-  consequential steps. Mac-only research preview today; requires Max.
+## 6.2 MCP servers
+The answer to "Google didn't ship an API": **Drive/Docs/Sheets MCP** (cloud ops; no tab create),
+a **custom write MCP** (privileged writes when stock is read-only — the same pattern that pushes
+this repo), a **browser MCP** (Sites + Docs tabs via the front end), and an **image MCP**
+(NotebookLM/Imagen/local). Each independently disable-able.
 
-**Recommendation:** build and schedule on Claude Code; expose the daily-driver flows to the
-human through Cowork once on Mac/Max, or through a ChatOps trigger (6.5) on any platform.
+## 6.3 Browser automation & the API gap
+Several Google products have no public write API (Docs tabs are read-only via API; Sites has no
+meaningful write API). This is a structural fact, not a bug to hide. The correct pattern: the Sheet
+is the intended state; automation reconciles the Site to match, driven primarily by **Claude in
+Chrome / computer use** (resilient to UI change) with Stagehand/Playwright as the scripted
+fallback. A broken Site sync degrades to "the Site is stale," never "the data is lost," because the
+Sheet holds truth.
 
-## 6.2 MCP Servers: The Connective Tissue
+## 6.4 The local bridge
+**Drive for Desktop** syncs the shared drive to local files; Claude edits local files and Google
+syncs them back, sidestepping API fights for Doc bodies and many Drive ops. (Honest limit: true
+Docs *tabs* may sync as sections — validate per use; fall back to the browser path if true tabs are
+required.)
 
-MCP is the v2.0 answer to "Google didn't ship an API." The system uses:
+## 6.5 Triggers
+Trigger-agnostic engine: **Drive folder drop**, **scheduled scan** (zero new content = zero cost),
+**ChatOps** (replaces v1.0's ThinkPad+Pub/Sub with a Claude-hosted listener; Google Chat
+optional front-end), and **manual edit anywhere** (drift detected → reconcile).
 
-1. **Google Drive/Docs/Sheets MCP** — cloud reads/writes for Drive files, Sheet rows, Doc
-   bodies. (Tab *creation* still unsupported by Google's API — see 4.3 / 6.3.)
-2. **A custom write MCP** — the lesson already learned in practice: when the stock integration is
-   read-only or missing operations, a purpose-built MCP server with the right credentials does the
-   writes. (This is the same pattern that pushed this very repo when the default GitHub path was
-   read-only.)
-3. **A browser MCP** (Playwright/computer-use server) — drives Google Sites and Docs tabs
-   from the front end.
+## 6.6 The visual-generation engine (NotebookLM first)
 
-Each MCP is independently disable-able, satisfying the graceful-degradation rule: if the browser
-MCP breaks, Sheet/Drive writes still work and Site updates fall back to manual.
-
-## 6.3 Browser Automation the Claude Way
-
-Google Sites and Docs-tab creation have no write API. v1.0 used Stagehand/Puppeteer. v2.0
-uses **Claude in Chrome / computer use** as the primary path — Claude reasons about the page
-visually and clicks like a human, which is more resilient to Google's constant UI changes than
-brittle selectors — with **Playwright via MCP** as the scripted fallback for precise, repeatable
-actions. Either way the target is the **site-map Sheet's intended state** (5.3), so automation is
-idempotent: re-run any time, it just makes the Site match the Sheet.
-
-The same mechanism handles dossier-tab creation (4.3) when Drive for Desktop isn't the
-chosen path.
-
-## 6.4 The Local Bridge: Drive for Desktop
-
-The cleanest route around Google's API gaps: install **Drive for Desktop**, which syncs the
-shared drive (including the project folders) to local files. Claude Code / Cowork then edit the
-**local files**, and Google syncs the changes back to the cloud. No API fight for Doc bodies and
-many Drive operations. (Note the honest limit from the founding conversation: Google Docs
-*tabs* are a Google-native organizational layer; a locally edited `.docx` may sync as sections
-rather than true tabs — so true-tab creation may still need the browser path. Validate per use.)
-
-## 6.5 Triggers: How Work Starts
-
-The reconciliation engine (7.3) is trigger-agnostic. Supported triggers:
-
-1. **Drive folder drop** — a transcript/PDF lands in `01_Inbox`; a folder watcher (Apps Script
-   change feed or Drive-for-Desktop file event) fires the Orchestrator.
-2. **Scheduled scan** — Claude Code runs on a cadence (cron / scheduled Cowork task),
-   checking Sheets and Drive for changes since the last `last_scan` timestamp. Zero new content
-   = zero cost.
-3. **ChatOps** — a message ("update Project Alpha with the new budget PDF") reaches the local
-   host. This replaces v1.0's ThinkPad + Pub/Sub + Google Chat with a simpler Claude-hosted
-   listener; Google Chat can still be the front-end if desired.
-4. **Manual edit anywhere** — a human edits a Sheet/Doc/Site directly; the watcher detects drift
-   and the engine reconciles (the "any surface as input" principle, 7.3).
-
-## 6.6 The Image-Generation Honesty Section
-
-**Claude cannot generate images.** This is the one capability the original Gemini-based design
-had natively (Imagen) that the Claude brain does not. The design handles this explicitly:
-
-- Claude (Creative Director) **writes the image prompt** — subject, style, composition, lighting,
-  brand mood — and decides *which* blocks warrant a visual (the `auto_generate_image` flag;
-  do **not** auto-visualize everything).
-- An **external image model produces the asset** via API/MCP — Gemini Imagen remains a
-  perfectly good choice and is already in the Google stack, or any image API can be wired as an
-  MCP tool.
-- The Librarian saves the asset to Drive and the Creative Director points `content_image_url` at
-  it.
-
-So image generation is **orchestrated by Claude, executed by an image model**. This is a
-genuine architectural seam, stated plainly rather than hand-waved.
+**No AI model here generates images itself — it orchestrates a generator.** The primary,
+pre-code engine is **Google NotebookLM** (`RES-TOOL-001`): free, in-Workspace, **source-driven**
+(upload material; it makes it navigable — no good-prompt literacy required), and its Studio
+outputs map almost exactly onto the Roam six-picture taxonomy and the Forte "Express" step. For
+raster image generation specifically, **Gemini/Imagen** (`INT-007`) or a **local Stable Diffusion
+XL** equivalent fill the role. The Creative Director writes the spec and sets `auto_generate_image
+= true` only where a visual genuinely adds value; the Librarian saves the output and registers a
+`VIS-` artifact. When sensitive data must stay local, the same role runs on-prem — the
+architecture is identical; only the runtime moves.
 
 ---
 
 # Part VII — Operational Mechanics
 
-## 7.0 Commit Logic and Reversible History
+## 7.0 Commit logic & reversible history
+No change to a projection without a Commit (timestamp, `Commit_ID`, source, narrative,
+framework tag, QA status), paired with an Event so the log and the graph share provenance. The
+ID is a rollback handle.
 
-No change to product or strategy without a **Commit** (timestamp, `Commit_ID`, input source,
-narrative, framework tag, QA status). In v2.0 a commit is paired with an **Event** row, so the
-commit log and the knowledge graph share provenance. Reversible history works as before: find
-the Commit/Event ID, trace downstream assets and Site blocks, roll back.
-
-## 7.1 The CODE Framework
-
-**C**apture (zero-friction intake) → **O**rganize (Librarian routes by actionability) → **D**istill
-(Historian's progressive summarization) → **E**xpress (Creative Director visualizes; text is the
-method of last resort). Unchanged.
+## 7.1 The CODE framework
+Capture → Organize → Distill → Express (`RES-PRIN-008`, Forte). Text is the method of last resort.
 
 ## 7.2 The Visual Vocabulary
+Deterministic data→design (Roam, `RES-PRIN-017`): dates→timeline/Gantt · coordinates→map ·
+finance→chart · process→flowchart · concept→summary card · vendor→embedded site ·
+files→Drive grid. Rendering via Google Charts/Looker/Mermaid; imagery via the 6.6 engine.
 
-Deterministic data-to-design rules: dates→Gantt/timeline, coordinates→map, finance→chart,
-process→flowchart, concept→summary card, vendor→embedded site, files→Drive grid. Charts
-that need rendering use Google Charts/Looker/Mermaid; imagery uses the external image model
-(6.6).
+## 7.3 The reconciliation engine
+**Any surface can be the input.** Manual edits are first-class (`RES-COMMIT-006`), not exceptions.
+One engine, many triggers: read the change → resolve entities → determine affected surfaces →
+generate updates → write via API where possible, queue browser automation where not → log to
+`SITE_SYNC_LOG`. Every path idempotent, retryable, independently disable-able, failures visible.
 
-## 7.3 The Reconciliation Engine: Any Surface as Input
-
-The architectural heart, restored from the founding conversation. The system is **not** a one-way
-fan-out from a single trigger. **Any surface can be the input**; the engine's job is to detect a
-change anywhere and reconcile the rest. Manual edits are first-class, not exceptions. One engine,
-many triggers (6.5). The engine: reads the changed surface → resolves entities against the
-registry → determines affected surfaces via the relational schema → generates each downstream
-update → writes via API where possible, queues browser automation where not → logs the
-reconciliation. Each write path is idempotent, retryable, independently disable-able, and surfaces
-failures visibly (status Sheet / digest).
-
-## 7.4 The Full Lifecycle: From Voice to View
-
-1. **Capture** — "Update the homepage with the safety milestone; use the PDF I just dropped."
-2. **Organize** — Librarian files the PDF, writes `Content_Assets` + relations + event.
-3. **Distill** — Historian commits the narrative + framework tag + Event row.
-4. **Express** — Creative Director composes the block, prompts the image model, emits insertion
-   instructions.
-5. **Audit** — QA Auditor drives the browser, screenshots 375/1440, checks contrast/layout.
-6. **Publish & Confirm** — on pass, publish; status → `Verified`; backlinks updated in every
-   referenced dossier; confirmation sent to the human. Target: ~4 minutes, ~15 seconds of
-   human effort.
+## 7.4 The full lifecycle
+Capture → Organize (Librarian: files + relations + event + any `VIS-`) → Distill (Historian:
+commit + event + framework tag) → Express (Creative Director: blocks + visual spec) → Audit (QA:
+375/1440 + lint) → Publish & Confirm (status `Verified`; backlinks refreshed in every referenced
+dossier). Target ~4 minutes, ~15 seconds of human effort.
 
 ---
 
-# Part VIII — Iteration, Scale & Change Management
+# Part VIII — Intellectual Lineage, Drift Control, Scale & Deployment
 
-## 8.0 The Feedback Loop
+## 8.0 The five canonical books
 
-QA rejections are logged with a failure-type tag. Before a new task, the Creative Director queries
-recent failures; recurring patterns (e.g., mobile font too small) trigger a Codex parameter update
-(raise minimum body font), and the next run reads the updated Codex. The system builds muscle
-memory. In v2.0 this is a Skill that edits the `governing-codex` Skill / `CLAUDE.md`.
+The Visual Second Brain is a synthesis of five established methodologies, stored as
+`canonical_book` resources with their ~31 principles (`RES-PRIN-*`) so any deliverable can be
+tagged to the principle it derives from — making the lineage *queryable*, not merely cited:
 
-## 8.1 Quarterly System Audits
+- **Osterwalder, *Business Model Generation*** (`RES-BOOK-001`) — the BMC used as a **reading**
+  tool for any external entity; gives the dossier its structure.
+- **Forte, *Building a Second Brain*** (`RES-BOOK-002`) — CODE + PARA; externalize thinking into
+  a retrievable substrate that outlives memory.
+- **Roam, *The Back of the Napkin*** (`RES-BOOK-003`) — the six-picture visual taxonomy and the
+  empirical case for visual cognition; foundation of the visual layer.
+- **Gerber, *The E-Myth Revisited*** (`RES-BOOK-004`) — Technician/Manager/Entrepreneur
+  decomposition and the franchise-prototype discipline; turns individual work into portable
+  operations.
+- **Ries, *The Lean Startup*** (`RES-BOOK-005`) — Build-Measure-Learn and innovation
+  accounting; the iteration discipline.
 
-A human reads the Narrative Log as a story, looking for Strategic Dissonance, and updates the
-Governing Codex. The update is a Strategic Commit; every agent aligns on next activation.
+The through-line is **portability**: each book turns a capacity that normally requires an
+exceptional individual into a teachable method, so the community member need not be a designer,
+strategist, ops expert, knowledge manager, or lean practitioner — the methods carry those
+capacities.
 
-## 8.2 The Fractal Growth Model
+## 8.1 The six drifts & lint discipline
 
-A project is a cell: one registry entry + one Drive folder + one Site + its site-map Sheets. New
-client = clone the cell, not rebuild the system. One Orchestrator iterates the `Master_Index`. A
-single consultant runs a portfolio of dozens.
+Six named **drifts** (`RES-DRIFT-01..06`) are recurring ways the concept gets distorted — AI as
+the engine not the accelerator (`01`); axis conflation (`02`); treating the EDI Playbook as separate
+from the workshop (`03`); losing the "getting a job is a job" frame (`04`); forgetting the pre-code
+foundation (`05`); conflating BMC building with BMC reading (`06`). They are stored as entities; a
+`corrects_drift` relation lets any artifact be checked against them, and `LINT_FINDINGS` surfaces
+drift-correction-needed items. If a request or output starts treating the AI as the system or
+skipping pre-code, **name the drift and self-correct.**
 
-## 8.3 The Workshop Integration
+## 8.1b Feedback loop & quarterly audits
+QA rejections are tagged by failure type; recurring patterns trigger a Codex parameter update
+(e.g., raise min body font) that the next run reads — muscle memory, implemented as a Skill that
+edits the `governing-codex` Skill. Quarterly, a human reads the Narrative Log as a story, looks for
+Strategic Dissonance, and updates the Codex via a Strategic Commit.
 
-"Google and AI for Business" is the top of the funnel — a 15-minute workshop teaching the
-*manual* version of everything the system automates. The workshop establishes the Clarity Gap;
-the Antigravity CMS is the upsell. Each manual step maps to an automated agent. The pitch: *"What
-if all of this happened automatically every time you added a file to your Google Drive?"*
+## 8.2 Fractal growth
+A project is a cell: one registry entry + one Drive folder + one Site + its site-map sheets. New
+client = clone the cell. Defensibility is **the trained, networked community as distribution
+channel** (`RES-COMMIT-002`), not a technical moat.
+
+## 8.3 The deployment arc (cloud → local-first → physical)
+- **Today — pre-code, cloud.** Workspace + NotebookLM, free. Proven: the EDI Playbook
+  (`RES-PROOF-002`) is a paid, compliant City of Seattle contract running almost entirely on
+  pre-code Workspace; the 2023 case study (`RES-PROOF-001`) moved interview conversion
+  2.86% → 35.29% as a clean Lean experiment. *Precise claim:* the substrate is the structured
+  **evolution** of that Form→Sheet→Doc flow, not something those proofs already implement.
+- **Near future — local-first.** Sensitive client data reasoned over on an on-prem **NAS** with
+  open-weights models (`RES-COMMIT-003`); collaborative surfaces stay in Workspace. Data
+  sovereignty as a survival requirement, aligned with where regulation is heading.
+- **Later — physical interfaces.** Projected surfaces and ambient capture; downstream of a stable
+  substrate, not a prerequisite.
+
+## 8.4 The workshop funnel & proof artifacts
+"Google and AI for Business" teaches the *manual* version of everything the system automates,
+establishing the Clarity Gap; the automated system is the upsell. Proof artifacts are first-class
+resources (`RES-PROOF-001..006`), including the Codex and Blueprint themselves.
 
 ---
 
 # Appendices
 
-## Appendix A — Bootstrap Protocol (Claude-Native Initialization)
-
-Directive to the Claude orchestrator (run in Claude Code at the project root):
-
-**Phase 1 — Constitution & host**
-1. Confirm `CLAUDE.md` (the Governing Codex) is present and loaded.
-2. Confirm MCP servers are connected: Drive/Docs/Sheets MCP, custom write MCP, browser
-   MCP. Confirm Drive for Desktop is syncing the project shared drive.
-3. Confirm the four subagents and their Skills are registered with the Agent SDK.
-
-**Phase 2 — Substrate**
-4. Verify the root Drive folder ("Antigravity Projects — 2026"); create if missing.
-5. Construct `DB_Master_Projects`; create `MASTER_REGISTRY`, the six type sheets,
-   `RELATIONS`, `EVENTS`, `Project_Narrative_Log`, `Content_Assets`.
-6. For each project, create `SITE_PAGES`, `SITE_CONTENT_BLOCKS`, `SITE_SYNC_LOG`.
-
-**Phase 3 — Librarian crawl**
-7. Recursively scan the root; register entities, mint typed IDs, write metadata, generate alt text
-   (Claude vision), create dossiers from per-type templates.
-8. Establish watch triggers (folder drop, scheduled scan, ChatOps, manual-edit drift).
+## Appendix A — Bootstrap Protocol (Claude runtime)
+1. Confirm `CLAUDE.md` is loaded; MCP servers connected (Drive, custom write, browser, image);
+   Drive for Desktop syncing; the four subagents + Skills registered.
+2. Verify the root Drive folder; build the substrate workbook: `MASTER_REGISTRY`, the seven type
+   sheets, `RELATIONS`, `EVENTS`, `VISUAL_ARTIFACTS`, `LINT_FINDINGS`, `INTEGRATIONS`,
+   `VOCABULARIES`, `Project_Narrative_Log`, `Content_Assets`. Seed `RESOURCES` with the five
+   books, principles, drifts, commitments, proofs.
+3. Per project: `SITE_PAGES`, `SITE_CONTENT_BLOCKS`, `SITE_SYNC_LOG`.
+4. Librarian crawl: register entities, mint typed IDs, write metadata + alt text, build dossiers from
+   per-type templates. Establish triggers (drop, scan, ChatOps, manual-edit drift).
 
 ## Appendix B — Template Variable Reference
-
 `{{client_name}}`, `{{client_short}}`, `{{consultant_name}}`, `{{partner_orgs}}`, `{{site_url}}`,
 `{{project_strategy_pdf}}`, `{{hero_image_main}}`, `{{narrative_paragraph}}`,
 `{{strategic_pillars}}`, `{{stage_1_name}}`, `{{stage_1_slides}}`, `{{vendor_partner_url}}`,
@@ -611,43 +527,41 @@ Directive to the Claude orchestrator (run in Claude Code at the project root):
 `{{development_docs}}`, `{{calendar_booking_url}}`, `{{consultant_contact}}`.
 
 ## Appendix C — Block Type Vocabulary
-
 `heading`, `paragraph`, `bulleted_list`, `image`, `image_with_caption`, `external_link`,
 `internal_link`, `drive_file_embed`, `drive_folder_embed`, `drive_sheet_link`, `calendar_button`,
-`embedded_website`. Each maps to a Google Sites insertion action executed by the browser-
-automation layer. Proof-pairing is mandatory: every narrative section gets ≥1 embedded proof.
+`embedded_website`. Proof-pairing mandatory.
 
-## Appendix D — MCP Server Inventory
+## Appendix D — Integrations Inventory (`INTEGRATIONS` sheet)
 
-| MCP server | Purpose | Write? | Fallback |
-|---|---|---|---|
-| Drive/Docs/Sheets MCP | cloud file/sheet/doc ops | yes (no tab create) | Drive for Desktop |
-| Custom write MCP | privileged writes when stock is read-only | yes | n/a |
-| Browser MCP (Playwright/computer-use) | Sites + Docs tabs via front end | yes | manual |
-| Image MCP (Gemini Imagen or other) | asset generation | yes | manual upload |
+| ID | Service | Purpose | Failure mode | Fallback |
+|---|---|---|---|---|
+| INT-001 | Google Sheets API | the substrate | writes fail | manual edit |
+| INT-002 | Google Drive API | files, dossiers, triggers | ops fail | manual Drive ops |
+| INT-003 | Google Docs API | dossier bodies (no tab write) | tab write unsupported | append section / browser |
+| INT-004 | Google Sites (no API) | public hubs | no programmatic write | browser automation |
+| INT-005 | Google My Maps | asset map | limited write | manual pins |
+| INT-006 | NotebookLM | pre-code visual engine | generation fails | manual Slides / Imagen / local |
+| INT-007 | Gemini / Imagen | image generation | gen fails | local SDXL / hand-drawn |
+| INT-008 | Stagehand | Sites/Docs-tab browser writes | breaks on UI change | Playwright/Puppeteer |
+| INT-009 | Otter.ai | transcription | unavailable | manual notes |
+| INT-010 | Neoserra (WA SBDC) | compliance CRM | no import | **manual indefinitely** |
 
-## Appendix E — Skill Inventory (Claude Skills ↔ v1.0 S01–S42)
+## Appendix E — Skill Inventory (Claude Skills ↔ Blueprint S01–S42)
+Historian: `transcript-synthesis`(S01), `5w-interrogation`(S02), `okr-alignment`(S03),
+`raci-tagging`(S04), `narrative-commit`(S05), `quarterly-review`(S06), `codex-version`(S07),
+`strategic-commit`(S08). Librarian: `content-scan`(S09), `taxonomy-routing`(S10),
+`canonical-rename`(S11), `cross-link`(S12), `content-assets-entry`(S13), `image-alt-text`(S14),
+`schema-design`(S15), `project-tab-gen`(S16), `validation-formatting`(S17). Creative Director:
+`section-copywriting`(S18), `visual-vocabulary`(S19), `visual-spec`(S20 — spec only; engine
+generates), `brand-enforcement`(S21), `layout-composition`(S22), `block-insertion`(S23),
+`proof-pairing`(S24). Site Builder: `template-clone`(S25), `multi-page`(S26), `browser-drive`
+(S27), `playwright-fallback`(S28). QA Auditor: `viewport-sim`(S29), `screenshot`(S30),
+`wcag-contrast`(S31), `layout-regression`(S32), `passfail-ticket`(S33), `rejection-pattern`(S34),
+`param-self-tune`(S35), plus `lint-scan` (contradictions/stale/orphans → `LINT_FINDINGS`).
+Infra/Orchestrator: `trigger-listen`(S36–S38), `job-dispatch`(S39), `agent-sequencing`(S40),
+`error-handling`(S41), `site-rollback`(S42).
 
-The 42 skills from the Organizational Blueprint port directly to Claude Skills, grouped by agent:
-
-- **Historian:** `transcript-synthesis` (S01), `5w-interrogation` (S02), `okr-alignment` (S03),
-  `raci-tagging` (S04), `narrative-commit` (S05), `quarterly-review` (S06), `codex-version`
-  (S07), `strategic-commit` (S08).
-- **Librarian:** `content-scan` (S09), `taxonomy-routing` (S10), `canonical-rename` (S11),
-  `cross-link` (S12), `content-assets-entry` (S13), `image-alt-text` (S14), `schema-design`
-  (S15), `project-tab-gen` (S16), `validation-formatting` (S17).
-- **Creative Director:** `section-copywriting` (S18), `visual-vocabulary` (S19), `image-prompt`
-  (S20 — prompt only; generation external), `brand-enforcement` (S21), `layout-composition`
-  (S22), `block-insertion` (S23), `proof-pairing` (S24).
-- **Site Builder (browser):** `template-clone` (S25), `multi-page` (S26), `browser-drive`
-  (S27 — Claude in Chrome / computer use), `playwright-fallback` (S28).
-- **QA Auditor:** `viewport-sim` (S29), `screenshot` (S30), `wcag-contrast` (S31),
-  `layout-regression` (S32), `passfail-ticket` (S33), `rejection-pattern` (S34), `param-self-tune`
-  (S35).
-- **Infra/Orchestrator:** `trigger-listen` (S36–S38), `job-dispatch` (S39), `agent-sequencing`
-  (S40), `error-handling` (S41), `site-rollback` (S42).
-
-The SBDC meeting-note generator — the first Skill ever built for this system — is the canonical
-template all Historian/Creative Director skills inherit their voice rules from.
+The SBDC meeting-note generator — the first Skill built — is the canonical voice template all
+Historian/Creative Director copy inherits from.
 
 — End of Document —
